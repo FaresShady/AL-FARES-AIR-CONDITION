@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            text-align: center;
+            background-color: rgb(44, 160, 243);
+        }
+        ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hiddeN;
+  background-color:darkblue;
+  
+  display: inline-block;
+  
+
+}
+
+li { 
+  float:left;
+ 
+}
+
+li a {position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 9px 10px;
+  text-decoration: none;
+  border: #111;
+}
+
+li a:hover {
+  background-color: #111;
+  
+}
+button {
+    border-radius: 18px;
+    margin: 7px;
+    padding: 7px;
+    border-width: 0px 0px 3px 0px;
+    border-color: darkblue;
+    background-color: darkblue;
+    color: rgb(255, 255, 255);
+} 
+.nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: -webkit-sticky; 
+  position: sticky;
+  top:0;
+}
+    </style>
+    <title>Contact</title>
+</head>
+<body>
+    <div class="nav">
+  <ul>
+        <li><a style="font-size: 150%;" href="homepage.html"> Home</a></li>
+        <li><a style="font-size: 140%;" href="carrier.html">Carrier (AC)</a></li>
+        <li><a style="font-size: 140%;" href="sharp.html">Sharp (AC)</a></li>
+        <li><a style="font-size: 140%;" href="midea.html">Midea (AC)</a></li>
+        <li><a style="font-size: 140%;" href="tech.html">Technical support</a></li>
+        <li><a style="font-size: 140%;" href="#contact">Contact us</a>
+      
+      </li>
+      </ul>
+    </div>
+    <div id="contact"><br><br><br><br><rb><br>
+        <h2 style="color: white;">Contact us on:</h2>
+        <a target="_blank" href="https://www.facebook.com/alfares.aircondition.5"><img style="width:10% ;" src="img/R.png"><br>Facebook</a><br><br>
+        <a target="_blank" href="airconditionalfares@gmail.com"><img style="width:10% ;" src="img/email.png"><br>Email</a>
+    <br><br>
+    <a target="_blank" style="font-size: 150%;" href="https://api.whatsapp.com/send/?phone=201223383422&text&type=phone_number&app_absent=0" ><img style="width:11% ;" src="img/0aab9141bfef9ca54f0dfe468af74571.png"><br>whatsapp<br>01223383422<br>01275563375</a><br><br>
+       <br><br><br><br><br><br></div>
+       <button onclick="logout();">Go to the home page</button><br><br>
+       <script>
+           function logout() {
+            window.location.replace("homepage.html")
+            ;}
+            </script>
+</body>
+</html>

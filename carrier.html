@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+            ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hiddeN;
+  background-color:darkblue;
+  
+  display: inline-block;
+  
+
+}
+
+li { 
+  float:left;
+ 
+}
+
+li a {position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 9px 10px;
+  text-decoration: none;
+  border: #111;
+}
+
+li a:hover {
+  background-color: #111;
+  
+}
+button {
+    border-radius: 18px;
+    margin: 7px;
+    padding: 7px;
+    border-width: 0px 0px 3px 0px;
+    border-color: darkblue;
+    background-color: darkblue;
+    color: rgb(255, 255, 255);
+} 
+.nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+    </style>
+    
+    <title>Carrier Price List</title>
+</head>
+<body style="text-align: center;">
+    <div class="nav">
+  <ul>
+        <li><a style="font-size: 150%;" href="homepage.html"> Home</a></li>
+        <li><a style="font-size: 140%;" href="carrier.html">Carrier (AC)</a></li>
+        <li><a style="font-size: 140%;" href="sharp.html">Sharp (AC)</a></li>
+        <li><a style="font-size: 140%;" href="midea.html">Midea (AC)</a></li>
+        <li><a style="font-size: 140%;" href="tech.html">Technical support</a></li>
+        <li><a style="font-size: 140%;" href="#contact">Contact us</a>
+      
+      </li>
+      </ul>
+    </div>
+    <div>
+        <marquee width="100%" behavior="scroll" direction="right" scrollamount="5" bgcolor="darkblue"><h2 style="color:rgb(255, 255, 252)">للتواصل برجاء الاتصال على الارقام الاتية ( 01223383422 - 01275563375 ) مواعيد العمل من الساعة الثانية عشر ظهرا حتى الساعة الثالثة فجرا</h2></marquee>
+        </div>
+       
+                <br><br>
+    <h1 style="font-size:250% ;">AL-Fares <br>Air-Condition</h1>
+    <img style="width:100% ;" src="img/PdfImage.png">
+    <img style="width:90% ;" src="img/kart.jpg">
+    <br><br>
+    <button onclick="logout();">Go to the home page</button><br><br>
+    <script>
+        function logout() {
+         window.location.replace("homepage.html")
+         ;}
+    </script>
+</body>
+</html>
